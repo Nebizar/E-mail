@@ -66,7 +66,7 @@ public class EMail extends Application {
      */
     public static void main(String[] args) throws IOException {
         try {
-            clientSocket = new Socket("127.0.0.1", 8080);
+            clientSocket = new Socket("192.168.64.1", 8080);
             System.out.println("Polaczono z gniazdem");
         } catch (IOException ex) {
             //AlertHelper.showAlert(Alert.AlertType.ERROR, owner, "Error!", "Błąd przy połączeniu z serwerem - Sprawdz Polaczenie !");
